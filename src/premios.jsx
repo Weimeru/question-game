@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./rewardList.module.css";
+import  "./rewardList.css";
 
 export function Premios(){
     const [ questionNumber] = useState(1);
@@ -12,12 +12,12 @@ export function Premios(){
     ].reverse();
     
     return(
-        <div className={styles.moneyList}>
+        <div className="moneyList">
             <ul>
                {moneyAmount.map((m) => (
-                    <li className={questionNumber === m.id ? styles.rewardelementactive : styles.rewardelement }>
-                        <span className={styles.number}>{m.id}</span>
-                        <span className={styles.amount}> {m.amount}</span>
+                    <li className={questionNumber === m.id ? "rewardelementactive" : "rewardelement" }>
+                        <span className="number">{m.id}</span>
+                        <span className="amount"> {m.amount}</span>
                     </li>
                 ))} 
             </ul>
