@@ -1,22 +1,28 @@
-import React, { useState } from "react";
-import styles from "./gameInterface.module.css";
-import { Trivia } from "./Trivia";
-import data from "./Data.json";
+import React from "react";
+import "./gameInterface.css";
+import "./questions.json";
+
 
 export function GameInterface(){
-    const [questionNumber, setQuestionNumber] = useState (1);
-    const [timeOut, setTimeOut] = useState(false);
     return(
         <div>
-            <div className={styles.top}>
-                <div className={styles.timer}>30</div>
+            <div className="top">
+                <div className="timer">30</div>
             </div>
-            <div className={styles.bottom}>
-                <div className={styles.questions}> < Trivia 
-                    data={data} 
-                    setTimeOut={setTimeOut}
-                    questionNumber={questionNumber}
-                    setQuestionNumber={setQuestionNumber }/> 
+            <div className="bottom">
+                <div className="questions">
+                    
+                    <div className="trivia">
+                        <div className="question">puto json</div>
+
+                        <div className="answers">
+                            <div className="answerOption"> Holoooo </div>
+                            <div className="answerOption"> Holoooo </div>
+                            <div className="answerOption"> Holoooo </div>
+                            <div className="answerOption"> Holoooo </div>
+                        </div>
+                    </div>
+
                  </div>
             </div>
         </div>

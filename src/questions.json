@@ -1,0 +1,275 @@
+ [ { "level": 1 ,
+     "questions": [  
+            { "_id": "1", 
+            "question": "¿De quién es el bar al que Homero va a tomar cerveza?",
+             "answers": [ 
+                 { "correct": false, "text": "Barney" }, 
+                 { "correct": true, "text": "Moe" }, 
+                 { "correct": false, "text": "Otto" },
+                 { "correct": false, "text": "Carl" } ]
+            },
+         
+             { "_id": "2", 
+                "question": "¿Cual es el nombre del vecino religioso de la familia Simpsons?", 
+                "answers": [
+                     { "correct": false, "text": "Carl" },
+                     { "correct": true, "text": "Ned" }, 
+                     { "correct": false, "text": "Steve" },
+                     { "correct": false, "text": "Lucio" } ]
+             },
+         
+             { "_id": "3", 
+                "question": "¿Cual es la frase mas repetida por el Sr. Burns?", 
+                "answers": [ 
+                     { "correct": true, "text": "Excelente" }, 
+                     { "correct": false, "text": "Genial" }, 
+                     { "correct": false, "text": "Estupendo" }, 
+                     { "correct": false, "text": "Perfecto" } ] 
+                  },
+              
+             { "_id": "4", 
+                "question": "¿Como se llama la cerveza que toma Homero?",
+                "answers": [ 
+                     { "correct": false, "text": "American" }, 
+                     { "correct": false, "text": "Chopp" }, 
+                     { "correct": false, "text": "Black" }, 
+                     { "correct": true, "text": "Duff" } ]
+             },
+         
+             { "_id": "5", 
+                "question": "¿Como se llama el mejor amigo de Bart?", 
+                "answers": [ 
+                     { "correct": false, "text": "Tony" }, 
+                     { "correct": false, "text": "Nelson" }, 
+                     { "correct": true, "text": "Milhouse" },
+                     { "correct": false, "text": "Martin" } ]
+             },
+         
+             { "_id": "6", 
+                "question": "¿Como se llama el amigo de Homero que vive siempre ebrio y eructando?", 
+                "answers": [ 
+                     { "correct": true, "text": "Barney" }, 
+                     { "correct": false, "text": "Ned" }, 
+                     { "correct": false, "text": "Otto" }, 
+                     { "correct": false, "text": "Duffman" } ] 
+                 }
+    ]},
+    
+    { "level": 2 ,
+    "questions": [     
+            { "_id": "7", 
+                "question": "¿Como se llama el amigo de Lenny?", 
+                "answers": [ 
+                    { "correct": false, "text": "Joe" }, 
+                    { "correct": false, "text": "Gilbert" }, 
+                    { "correct": true, "text": "Carl" }, 
+                    { "correct": false, "text": "Krusty" } ] 
+                },
+
+            { "_id": "8", 
+            "question": "¿Cual es el instrumento favorito de Lisa?", 
+            "answers": [ 
+                { "correct": false, "text": "Guitarra" }, 
+                { "correct": false, "text": "Violín" }, 
+                { "correct": true, "text": "Saxofón" }, 
+                { "correct": false, "text": "Oboe" } ] 
+            },
+            { "_id": "9",
+                "question": "¿Cuantas personas viven en la casa de Los Simpsons?", 
+                "answers": [ 
+                    { "correct": false, "text": "4" }, 
+                    { "correct": true, "text": "5" }, 
+                    { "correct": false, "text": "6" }, 
+                    { "correct": false, "text": "7" } ]
+                },
+            
+            { "_id": "10", 
+                "question": "¿Como se llama el abuelo Simpson?", 
+                "answers": [ 
+                    { "correct": false, "text": "Alex" }, 
+                    { "correct": false, "text": "Albert" }, 
+                    { "correct": false, "text": "Anibal" }, 
+                    { "correct": true, "text": "Abraham" } ] 
+                },
+            
+            { "_id": "11", 
+                "question": "¿De que pais proviene Willie el conserje?", 
+                "answers": [ 
+                    { "correct": true, "text": "Escocia" }, 
+                    { "correct": false, "text": "Gales" }, 
+                    { "correct": false, "text": "Inglaterra" }, 
+                    { "correct": false, "text": "Irlanda" } ]
+                 },
+             
+            { "_id": "12", 
+                "question": "¿Cual es el apellido de Marge?", 
+                "answers": [ 
+                    { "correct": false, "text": "Bradson" }, 
+                    { "correct": false, "text": "Bourdin" }, 
+                    { "correct": true, "text": "Bouvier" }, 
+                    { "correct": false, "text": "Bale" } ] 
+                }]
+    },
+    
+    { "level": 3 ,
+      "questions": [ 
+            { "_id": "13",
+                "question": "¿Cual es el segundo nombre de Homero?", 
+                "answers": [ 
+                    { "correct": false, "text": "James" }, 
+                    { "correct": true, "text": "Jay" }, 
+                    { "correct": false, "text": "Jade" }, 
+                    { "correct": false, "text": "John" } ]
+                 },
+             
+            { "_id": "14", 
+                "question": "En el capítulo que Homero es boxeador: ¿Quién es su representante?", 
+                "answers": [ 
+                    { "correct": false, "text": "Flanders" }, 
+                    { "correct": false, "text": "Skinner" }, 
+                    { "correct": false, "text": "Carl" }, 
+                    { "correct": true, "text": "Moe" } ]
+                },
+            
+            { "_id": "15", 
+                "question": "En el capítulo del oso de Burns: ¿Como se llamaba el oso?", 
+                "answers": [ 
+                    { "correct": false, "text": "Tonto" }, 
+                    { "correct": false, "text": "Ted" }, 
+                    { "correct": false, "text": "Ruffy" }, 
+                    { "correct": true, "text": "Bobo" } ] 
+                 },
+             
+            { "_id": "16", 
+                "question": "¿Que personaje siempre intenta matar a Bart?", 
+                "answers": [ 
+                   { "correct": false, "text": "Krusty" }, 
+                   { "correct": false, "text": "Skinner" }, 
+                   { "correct": true, "text": "Bob Patiño" }, 
+                   { "correct": false, "text": "Lenny" } ] 
+                },
+            
+            { "_id": "17", 
+                "question": "¿Como se llama el perro de los Simpsons?", 
+                "answers": [ 
+                    { "correct": false, "text": "Pelos" }, 
+                    { "correct": true, "text": "Huesos" }, 
+                    { "correct": false, "text": "Otto" }, 
+                    { "correct": false, "text": "Gruñon" } ] 
+                },
+            
+            { "_id": "18", 
+                "question": "¿Cual es el nombre de la calle donde viven los Simpsons?", 
+                "answers": [ 
+                    { "correct": false, "text": "Av Kennedy" }, 
+                    { "correct": false, "text": "Av Roosebelt" }, 
+                    { "correct": true, "text": "Av Siempre Viva" }, 
+                    { "correct": false, "text": "Av Las Alegrias" } ] 
+                 }]
+    },
+    
+    { "level": 4 ,
+      "questions": [ 
+            { "_id": "19", 
+                "question": "En el capítulo donde Homero juega al baseball: ¿Que jugador profesional ocupa su lugar en el campo de juego?", 
+                "answers": [ 
+                    { "correct": false, "text": "Mattingly" }, 
+                    { "correct": true, "text": "Strawberry" }, 
+                    { "correct": false, "text": "Canseco" }, 
+                    { "correct": false, "text": "Griffey Jr" } ]
+                },
+            
+            { "_id": "20", 
+                "question": "En el capítulo donde Homero juega al baseball: ¿Que apuesta el Sr Burns por el partido?", 
+                "answers": [ 
+                    { "correct": false, "text": "La planta nuclear" }, 
+                    { "correct": false, "text": "Plutonio" }, 
+                    { "correct": true, "text": "Mucho dinero" }, 
+                    { "correct": false, "text": "Varios autos" } ] 
+                 },
+             
+            { "_id": "21", 
+                "question": "En el capítulo del oso de Burns: ¿Como lo llamaban sus padres?", 
+                "answers": [ 
+                    { "correct": true, "text": "Alegrin" }, 
+                    { "correct": false, "text": "Charly" }, 
+                    { "correct": false, "text": "Monty" }, 
+                    { "correct": false, "text": "William" } ] 
+                 },
+             
+            { "_id": "22", 
+                "question": "En el capítulo Homero universitario: ¿Que se roba Homero de la construcción?", 
+                "answers": [ 
+                    { "correct": false, "text": "Barras" }, 
+                    { "correct": false, "text": "Arena" }, 
+                    { "correct": false, "text": "Herramientas" },
+                    { "correct": true, "text": "Ladrillos" } ] 
+                 },
+             
+            { "_id": "23", 
+                "question": "¿Como muere la esposa de Ned Flanders?", 
+                "answers": [ 
+                    { "correct": false, "text": "Accidente de autos" }, 
+                    { "correct": true, "text": "Cae de una tribuna" }, 
+                    { "correct": false, "text": "De un disparo" }, 
+                    { "correct": false, "text": "Comiendo albóndigas" } ]
+                },
+            
+            { "_id": "24", 
+                "question": "En el capítulo del trillon de dolares: ¿Que isla quieren comprar Burns y Homero?", 
+                "answers": [ 
+                    { "correct": false, "text": "Hawai" }, 
+                    { "correct": true, "text": "Cuba" }, 
+                    { "correct": false, "text": "Jamaica" }, 
+                    { "correct": false, "text": "Haití" } ]
+                 }]
+    },
+    
+    { "level": 5 ,
+        "questions": [ 
+            { "_id": "25", 
+                "question": "¿Cual es el regalo que reciben los Simpsons en el primero episodio de la serie?", 
+                "answers": [ 
+                    { "correct": false, "text": "Un gato" }, 
+                    { "correct": true, "text": "Un perro" }, 
+                    { "correct": false, "text": "Un auto" }, 
+                    { "correct": false, "text": "El significado de la navidad" } ] 
+                 },
+             
+            { "_id": "26", 
+                "question": "¿Cual fue la primer palabra de Lisa?", 
+                "answers": [ 
+                    { "correct": true, "text": "Bart" }, 
+                    { "correct": false, "text": "Papi" }, 
+                    { "correct": false, "text": "Mami" }, 
+                    { "correct": false, "text": "Hola" } ]
+                 },
+             
+            { "_id": "27", 
+                "question": "¿Que famoso compositor de musica clasica es interpretado por bart?", 
+                "answers": [ 
+                    { "correct": true, "text": "Mozart" }, 
+                    { "correct": false, "text": "Beethoven" }, 
+                    { "correct": false, "text": "Bach" }, 
+                    { "correct": false, "text": "Salieri" } ]
+                },
+            
+            { "_id": "28", 
+                "question": "¿A que se dedicaba Jeremias Springfield, antes de fundar Springfield?", 
+                "answers": [ 
+                    { "correct": true, "text": "Era un sanguinario pirata" }, 
+                    { "correct": false, "text": "Era un diplomatico de Washington" }, 
+                    { "correct": false, "text": "Era consejal de Shelbyville" },
+                    { "correct": false, "text": "Era un pastor de ovejas" } ]
+                 },
+             
+            { "_id": "29", 
+                "question": "¿Que nombre tenia Jeremias Springfield, antes de fundar Springfield?", 
+                "answers": [ 
+                    { "correct": true, "text": "Hans Sprungfeld" }, 
+                    { "correct": false, "text": "Hans Springfield" },
+                    { "correct": false, "text": "Jeremias Sprungfeld" }, 
+                    { "correct": false, "text": "Jeremias Springfield" } ] 
+                }]
+    }
+]
