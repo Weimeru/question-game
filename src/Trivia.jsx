@@ -1,28 +1,35 @@
+import React, { useEffect, useState } from "react";
+import "./gameInterface.css";
 
-import { useEffect, useState } from "react";
-import styles from "./trivia.module.css";
+export function Trivia({ 
+    Preg, 
+    setTimeOut, 
+    questionNumber, 
+    setQuestionNumber,
+    }){
+        const [question, setQuestion] = useState(null);
+        const [selectedAnswer, setSelectedAnswer] = useState(null);
+        const [className, setClassName] = useState("answerOption");
 
+        useEffect(()=> {
+            setQuestion(Preg[questionNumber - 1]);
+        }, [Preg, questionNumber]);
 
-export function Trivia({data, 
-                        setTimeout, 
-                        questionNumber, 
-                        setQuestionNumber}){
-   const [ question, setQuestion] = useState(null);
-           
-   useEffect(( )=>{
-        setQuestion(data [questionNumber - 1]);
-    }, [data, questionNumber]);
+        const handleClick = (a) =>{
+            setSelectedAnswer(a);
+            setClassName("answerOption Active");  
+        }
 
     return(
-        <div className={styles.trivia}>
-            <div className={styles.question}>{question.question}</div>
+        <div className="trivia">
+                        <div className="question"> {question?.question} </div>
 
-            <div className={styles.answers}>
-                <div className={styles.answerOption}> Holoooo </div>
-                <div className={styles.answerOption}> Holoooo </div>
-                <div className={styles.answerOption}> Holoooo </div>
-                <div className={styles.answerOption}> Holoooo </div>
-            </div>
-        </div>
+                        <div className="answers">
+                            {question?.answers.map(a =>(
+                                <div className={selectedAnswer === a ? className : "answerOption"} 
+                                onClick={() => handleClick(a)} > {a.text} </div>
+                            ))}
+                        </div>
+                    </div>
     )
 }
