@@ -6,7 +6,7 @@ import data from "./questions.json";
 
 export function GameInterface(){
     const [questionNumber, setQuestionNumber] = useState(1);
-    const [timeOut, setTimeOut] = useState(false);
+    const [stop, setStop] = useState(false);
 
     const Preg = [
         { "_id": "1", 
@@ -73,7 +73,7 @@ export function GameInterface(){
                 <div className="questions">
                     < Trivia 
                         Preg = {Preg}
-                        setTimeOut ={setTimeOut}
+                        setStop = {setStop}
                         questionNumber = {questionNumber}
                         setQuestionNumber = {setQuestionNumber}
                     />    

@@ -3,7 +3,7 @@ import "./gameInterface.css";
 
 export function Trivia({ 
     Preg, 
-    setTimeOut, 
+    setStop, 
     questionNumber, 
     setQuestionNumber,
     }){
@@ -15,10 +15,29 @@ export function Trivia({
             setQuestion(Preg[questionNumber - 1]);
         }, [Preg, questionNumber]);
 
-        const handleClick = (a) =>{
-            setSelectedAnswer(a);
-            setClassName("answerOption Active");  
+        const delay = (duration, callback) => {
+            setTimeout (() =>{
+                callback();
+            }, duration);
         }
+
+        const handleClick = (a) => {
+            setSelectedAnswer(a);
+            setClassName("answerOption active"); 
+            delay(3000, () =>
+                setClassName(a.correct ? "answerOption correct" : "answerOption wrong")
+            );
+            delay(6000, () =>{
+                if (a.correct){
+                    setQuestionNumber((prev) => prev + 1);
+                    setSelectedAnswer(null);
+                } else {
+                    setStop(true);
+                }
+            }
+              
+            );
+        };
 
     return(
         <div className="trivia">
